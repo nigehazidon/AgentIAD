@@ -1,0 +1,33 @@
+# ---- Python / caches ----
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.venv/
+venv/
+
+# ---- editors / tooling config ----
+.vscode/
+.claude/
+
+# ---- runtime experiment artifacts (not part of the source repo) ----
+results/
+data/
+models/
+*.pth
+*.pt
+*.safetensors
+*.ckpt
+atomic_candidates.json
+run.log
+
+# ---- third-party checkout (not part of this repo) ----
+/anomalib/
+
+# ---- paper draft ----
+/paper/
+
+# ---- backup of the original nested AnomalyAgent git history ----
+/.backup/
